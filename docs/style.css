@@ -457,33 +457,6 @@ form { padding: 32px 40px 36px; display: flex; flex-direction: column; gap: 24px
   font-size: 13px;
 }
 
-#add-table-btn {
-  padding: 10px 16px;
-  border-radius: 999px; /* 🔥 fully rounded */
-  background: var(--accent);
-  color: #000;
-  font-weight: 500;
-  cursor: pointer;
-  border: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  transition: all 0.2s ease;
-}
-
-/* Hover effect */
-#add-table-btn:hover {
-  background: #f0d060;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 14px rgba(232,197,71,0.3);
-}
-
-/* Click effect */
-#add-table-btn:active {
-  transform: translateY(0);
-  box-shadow: none;
-}
-
 .table-list {
   display: flex;
   flex-wrap: wrap;
@@ -506,4 +479,14 @@ form { padding: 32px 40px 36px; display: flex; flex-direction: column; gap: 24px
   cursor: pointer;
   color: #ff6b6b;
   font-weight: bold;
+}
+
+.table-input-wrapper {
+  display: flex;
+  gap: 8px;
+  align-items: stretch;
+}
+
+.table-input-wrapper .btn {
+  padding: 12px 18px;
 }
